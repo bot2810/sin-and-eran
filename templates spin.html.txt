@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spin & Earn</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>🎯 Spin & Earn</h1>
+  <div id="wheel">🎁</div>
+  <button onclick="spin()">SPIN NOW</button>
+  <div id="result"></div>
+  <script src="/static/ads.js"></script>
+  <script>
+    function spin() {
+      document.getElementById('result').innerText = 'Spinning...';
+      fetch('/spin-result', {method: 'POST'})
+        .then(res => res.json())
+        .then(data => {
+          document.getElementById('result').innerText = data.label;
+          showAd();
+        });
+    }
+  </script>
+</body>
+</html>

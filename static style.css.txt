@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f9f9f9;
+}
+#wheel {
+  font-size: 80px;
+  margin: 20px auto;
+}
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background: gold;
+  border: none;
+  cursor: pointer;
+}

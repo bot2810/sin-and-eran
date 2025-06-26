@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>Rules</title></head>
+<body>
+  <h2>📜 Game Rules</h2>
+  <ul>
+    <li>Ad-blockers must be disabled.</li>
+    <li>Watch full ad to get reward.</li>
+    <li>Prize shown is final.</li>
+    <li>Skipping ads may result in ban.</li>
+  </ul>
+</body>
+</html>

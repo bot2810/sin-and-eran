@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head><title>Login</title></head>
+<body>
+  <h2>🔐 Enter your Telegram ID</h2>
+  <form method="POST">
+    <input type="text" name="telegram_id" required>
+    <button type="submit">Login</button>
+  </form>
+</body>
+</html>
